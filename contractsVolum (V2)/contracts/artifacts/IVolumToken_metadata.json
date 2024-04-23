@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "burn",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/VolumOwnerBurnWallet.sol": "IVolumToken"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/VolumOwnerBurnWallet.sol": {
+			"keccak256": "0x0f550a6ac4ef507ac4a838dfda69e77626446d6b981ac4e23365dabe2fc2f792",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ad69f98092b496c208c57cdb124d67dd6fad7d400d670507912d0db1c310e1cd",
+				"dweb:/ipfs/QmPe8sErQx288us5LcRsqrGGz87mZoovRUe2QAEQphMdGX"
+			]
+		}
+	},
+	"version": 1
+}
