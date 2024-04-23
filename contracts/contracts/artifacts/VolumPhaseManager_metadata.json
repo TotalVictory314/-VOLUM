@@ -1,0 +1,123 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "enum VolumPhaseManager.Phase",
+						"name": "newPhase",
+						"type": "uint8"
+					}
+				],
+				"name": "PhaseShifted",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "PHASE_DURATION",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "currentPhase",
+				"outputs": [
+					{
+						"internalType": "enum VolumPhaseManager.Phase",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCurrentPhase",
+				"outputs": [
+					{
+						"internalType": "enum VolumPhaseManager.Phase",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "lastPhaseShiftTimestamp",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "shiftPhase",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/VolumPhaseManager.sol": "VolumPhaseManager"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/VolumPhaseManager.sol": {
+			"keccak256": "0xf45873ca3730f0d186513ccaf12806853846d3400d73bc69359ce72651b62c37",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c48a8382b40df6b810653b1cd831600da59c1d5726e87341968c9cbd5548229f",
+				"dweb:/ipfs/QmcyxHr36xJoVP6yyeXyYwnNbCnN9h1XVChEAnjM3v6Ket"
+			]
+		}
+	},
+	"version": 1
+}
